@@ -36,6 +36,7 @@
 * Execute below command in project directory where package.json file is present
        ``` npm install
        ```
+          ```npm start```
 
 
 * Things needs to explore more are 
