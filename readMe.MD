@@ -1,4 +1,4 @@
-# This project is the standard Rest API implementation of express js in Type script
+### This project is the standard Rest API implementation of express js in Type script, Annotations ,logging,container, DI
 * This example give us litle demo of How Get,POST works using anotations
 * Focus on UserController, It demonstrate below points
     * How Class request mapping  works(@JsonController)
