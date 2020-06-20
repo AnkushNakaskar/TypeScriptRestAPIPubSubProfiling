@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@daos/*": [
+        "src/daos/*"
+      ],
+      "@logging/*": [
+        "src/config/logging/*"
+      ],
+      "@controller/*": [
+        "src/controller/*"
+      ],
+      "@controllerAll": [
+        "src/controller"
+      ],
+      "@server/*": [
+        "src/server/*"
+      ],
+      "@entities/*": [
+        "src/entities/*"
+      ],
+      "@bean/*": [
+        "src/bean/*"
+      ],
+      "@error/*": [
+        "src/error/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@routes/*": [
+        "src/routes"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/public/"
+  ]
+}
