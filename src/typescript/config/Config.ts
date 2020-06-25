@@ -29,6 +29,8 @@ export class Config {
             }
         } catch (e) {
             logger.error("Error in converting json into project config ", e)
+            return process.exit(1);
+
         }
         return projectConfig;
     }
@@ -41,6 +43,7 @@ export class Config {
             return yamlJson;
         } catch (e) {
             logger.error("Error in converting yml file into json: ", e);
+            throw new Error("Error in converting yml file into json");
         }
     }
 
