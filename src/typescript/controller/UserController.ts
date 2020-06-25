@@ -9,9 +9,9 @@ import {
     Post,
     QueryParam
 } from "routing-controllers";
-import User from "@entities/User";
-import {UserNotFoundError} from "@error/UserNotFoundError";
-import {UserDao} from "@daos/UserDao";
+import User from "../entities/User";
+import {UserNotFoundError} from "../error/UserNotFoundError";
+import {UserDao} from "../daos/UserDao";
 
 @JsonController("/test")
 export class UserController {

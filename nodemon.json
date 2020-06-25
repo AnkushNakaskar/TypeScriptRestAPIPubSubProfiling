@@ -2,5 +2,9 @@
   "watch": ["src"],
   "ext": "ts",
   "ignore": ["src/public"],
-  "exec": "ts-node -r tsconfig-paths/register ./src"
+  "exec": "ts-node -r tsconfig-paths/register ./src",
+  "env": {
+    "NODE_ENV": "dev",
+    "KEY_LOCATION": "src/main/resources/key.json"
+  }
 }

@@ -6,7 +6,7 @@ import { Container } from "typedi";
 
 import {ApplicationLogger} from '@logging/Logger'
 import * as log4js from "log4js";
-import * as controllers from "@controller/index";
+import * as controllers from "../controller/index";
 
 
 

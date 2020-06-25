@@ -37,11 +37,15 @@
        ``` npm install
        ```
           ```npm start```
-
+* This project also explain about below major points
+    * Google pubsub
+        * Check the PubSubService.ts -> It explain the message is consumed and handling error and max message at a time.
+    * Profiling in typescript -> Check nodemon.json, we have provided env and used the same in config.ts.
+        * Config.ts used the js-yaml to convert yml to json and json to object and did validation.
 
 * Things needs to explore more are 
     * Open API spec
-    * Hibernet validation like in Java
+    * Hibernet validation like in Java -> This is done using the class-validation(check out config.ts)
     * Mysql connect to database
     * ORM like feature, Transaction handling
     * What is promise and related work

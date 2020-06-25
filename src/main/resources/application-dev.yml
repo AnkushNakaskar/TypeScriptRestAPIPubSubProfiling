@@ -1,0 +1,21 @@
+podId: <placeholder>
+name: 'pubsub-logging'
+env: 'dev'
+topicName: 'testtopicankush'
+subscripberName: 'testtopicankush-sub'
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  strategy: org.hibernate.cfg.DefaultNamingStrategy
+drmMappingMap:
+  Internal: Standard
+  Standard: External
+deviceMapping:
+  '[smart-phones/tablets]': Mobiles,Tabs
+  '[laptop/desktop]': Desktop
+  mobile: Mobiles
+  smart tvs:  TV
+freepaidmap:
+  SVOD: "paid"
+  AVOD: "free"
+  TVOD: "paid"
+  FVOD: "free"

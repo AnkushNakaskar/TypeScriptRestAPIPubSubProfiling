@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+    "resolveJsonModule": true,
     "module": "commonjs",
     "outDir": "dist",
     "removeComments": true,
@@ -21,34 +22,37 @@
     ],
     "paths": {
       "@daos/*": [
-        "src/daos/*"
+        "src/typescript/daos/*"
+      ],
+      "@config/*": [
+        "src/typescript/config/*"
       ],
       "@logging/*": [
-        "src/config/logging/*"
+        "src/typescript/config/logging/*"
       ],
       "@controller/*": [
-        "src/controller/*"
+        "src/typescript/controller/*"
       ],
       "@controllerAll": [
-        "src/controller"
+        "src/typescript/controller"
       ],
       "@server/*": [
-        "src/server/*"
+        "src/typescript/server/*"
       ],
       "@entities/*": [
-        "src/entities/*"
+        "src/typescript/entities/*"
       ],
       "@bean/*": [
-        "src/bean/*"
+        "src/typescript/bean/*"
       ],
       "@error/*": [
-        "src/error/*"
+        "src/typescript/error/*"
       ],
       "@services/*": [
-        "src/services/*"
+        "src/typescript/services/*"
       ],
       "@routes/*": [
-        "src/routes"
+        "src/typescript/routes"
       ]
     }
   },
