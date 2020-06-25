@@ -42,6 +42,9 @@
         * Check the PubSubService.ts -> It explain the message is consumed and handling error and max message at a time.
     * Profiling in typescript -> Check nodemon.json, we have provided env and used the same in config.ts.
         * Config.ts used the js-yaml to convert yml to json and json to object and did validation.
+        * I had went through : https://github.com/motdotla/dotenv 
+            * I can see this is very easy for profiling , but problem is mandatory check and object mapping 
+            * hence handling the yaml file is easy and straight forward.
 
 * Things needs to explore more are 
     * Open API spec
